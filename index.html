@@ -1,120 +1,176 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="Imagens/favicon.avif" type="image/x-icon">
-    <title>Jugê Personalizados</title>
-</head>
-<body>
-
-   <nav class="menu">
-    
-    <div class="logo">
-        <img src="Imagens/logo verde.png" alt="Logo da Jugê Personalizados">
-    </div>
-
-        <ul class="menu-lista">
-            <li><a href="#home">Inicio</a></li>
-            <li><a href="#Sabonete">Sabonete</a></li>
-            <li><a href="#Perfumaria">Perfumaria</a></li>
-            <li><a href="#Convite">Convites</a></li> 
-            <li><a href="#Velas">Velas</a></li>    
-        </ul>
-
-        <div class="busca-container">   
-            <button id="lupa"><i class="fa-solid fa-magnifying-glass"></i></button>
-            <input class="busca" id="barraPesquisa" type="text" placeholder="Buscar">
-        </div>  
-            
-        <div class="menu-botoes">
-            <button class="entrar" id="btnEntrar">Entrar <i class="fa-solid fa-arrow-right-to-bracket"></i></button>
-            <button class="cadastro">Cadastre-se</button>
-        </div>
-
-        <div id="loginModal" class="modal-escondido">
-        <form>
-            <label><i class="fa-solid fa-envelope"></i> </label><input type="email" />
-            <label><i class="fa-solid fa-key"></i></label><input type="password" />
-            <button type="submit"><i class="fa-solid fa-arrow-right-to-bracket"></i></button>
-            <button type="button" id="fecharModal"><i class="fa-solid fa-x"></i></button>
-        </form>
-</div>
-    </nav>
-
-   <main class="divisao">
-
-    <section id="home" class="apresentacao">
-        <div class="container">
-        <h1>Bem-vindo à Jugê Personalizados!</h1>
-        <p>Transformamos suas ideias em produtos exclusivos e cheios de personalidade. Aqui você encontra perfumaria, sabonetes artesanais, convites especiais e velas feitas com todo carinho para momentos inesquecíveis.</p>
-        <p>Explore nosso site e descubra como podemos tornar seu dia ainda mais especial!</p>
-    </section>
-
-    <section id="Perfumaria" class="bloco reveal">
-      <img class="perfume" src="Imagens/Perfumaria.jpeg" alt="amostra de perfume">
-      <p class="perfume-descricao">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit libero rerum vero eum magnam eos maxime itaque, similique quis quisquam magni ratione saepe deleniti. Minima ullam similique voluptatibus. Eveniet, reprehenderit!logolo Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis excepturi ipsa veritatis, dolore sequi possimus quas repellat vitae debitis, dolorem, iusto ab dicta itaque accusamus perferendis. Quas neque porro explicabo!Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quisquam unde, cumque accusamus, sint delectus soluta voluptate eveniet numquam cum, inventore cupiditate voluptatibus corrupti corporis est minima! Dignissimos, incidunt quibusdam!Lorem
-      </p>
-    </section>
-
-    <section id="Sabonete" class="bloco reveal">
-      <img class="carrinho" src="Imagens/carrinho de sabonete.jpeg" alt="sabonete de carrinho">
-      <p class="descricao">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat earum itaque quas dolores repellat eligendi sunt provident magnam officiis inventore labore dignissimos accusantium, assumenda officia atque fugiat. Provident, qui sit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos vero, magni libero vel ut a cupiditate. Suscipit adipisci nemo, neque repellendus alias tempore eos obcaecati debitis veritatis iure a dolorem.loLorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda in vel ipsum eum porro corporis deleniti nesciunt autem. Perspiciatis maiores reiciendis beatae natus labore sint excepturi doloremque omnis doloribus id.
-      </p>
-    </section>
-
-    <section id="Convite" class="bloco reveal">
-        <img class="convites" src="Imagens/convites.jpeg" alt="imagem do convite">
-        <p class="descricao-convite">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, fugit! Animi debitis quibusdam accusantium omnis ea blanditiis error sit doloremque minus cum cumque labore, ipsum tempora voluptates maiores tenetur illo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure quam fugit quia et velit quae, error tempore tempora excepturi magnam consequuntur delectus perferendis, dolore vitae praesentium amet quod nulla reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quam expedita, amet, veritatis voluptatem magni optio facere alias commodi voluptatum architecto reiciendis libero facilis! Consectetur dolore reiciendis nisi ipsum dolor? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis vel iste reiciendis nostrum deleniti fugiat mollitia natus error minima nisi! Architecto veritatis doloremque odio obcaecati alias harum quibusdam soluta in.
-        </p>
-    </section>
-
-    <section id="Velas" class="bloco reveal">
-        <img class="velas" src="Imagens/velas.jpeg" alt="imagem de 3 velas">
-        <p class="descricao-velas">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore doloribus ea cupiditate qui tempora facilis accusantium fugiat? Soluta atque omnis debitis quibusdam minima laboriosam cumque ut! Corporis, quas aperiam! Eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi amet consequuntur mollitia aut odio provident recusandae id atque, culpa exercitationem eum aspernatur libero tempore dicta maiores, perspiciatis aperiam eius eveniet? lo 
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto deleniti libero tempora! Excepturi quis dolores aliquam veniam nesciunt iusto commodi facere earum deleniti, mollitia, libero explicabo, minus voluptatem repellendus eius!
-        </p>
-    </section>
-
-</main>
-
-
-   <footer>
-        <ul class="contatos">
-            <li>
-                <i class="fa-solid fa-phone"></i>
-                Telefone: (11) 1234-5678
-            </li>
-            
-            <li>
-                <a href="https://www.instagram.com/juge.perso?igsh=MTI4aTF4eXdxNXF2cA==">
-                    <i class="fa-brands fa-instagram"></i>
-                    Instagram: Jugê Perso
-                    </li>
-                </a>
-            
-            <li>
-                <i class="fa-solid fa-truck"></i>
-                Envio para todo o Brasil
-            </li>  
-        </ul>
-            
-        <div class="footer-center">
-            &copy; Jugê 2025
-        </div>
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Produtos personalizados como sabonetes, perfumes, convites e velas artesanais.">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="Imagens/Presente rosa icon.webp" type="image/x-icon">
+        <title>Jugê Personalizados</title>
+    </head>
+    <body>
         
+            <nav class="menu">
+                
+                    <div class="logo">
+                        <img src="Imagens/logo PNG.png" alt="Logo da Jugê Personalizados">
+                    </div>
 
-        <img class="site" src="Imagens/site seguro.png" alt="marca que o site é seguro">
-   </footer>
-   
-</body>
+                    <ul class="menu-lista">
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#Sabonete">Sabonete</a></li>
+                        <li><a href="#Perfumaria">Perfumaria</a></li>
+                        <li><a href="#Convite">Convites</a></li> 
+                        <li><a href="#Velas">Velas</a></li>    
+                    </ul>
 
-<script src="script.js"></script>
+                    <div class="busca-container">   
+                        <button id="lupa"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <input class="busca" id="barraPesquisa" type="text" placeholder="Buscar">
+                    </div>  
+                        
+                    <div class="menu-botoes">
+                        <button class="entrar" id="btnEntrar">
+                            Entrar
+                        </button>
 
-</html>
+                        <button id="btnCarrinho" class="carrinho" >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span id="contadorCarrinho">0</span>
+                        </button>
+                    </div>
+
+                    <div id="modalCarrinho" class="modal-carrinho">
+                        <ul id="listaCarrinho"></ul>
+
+                        <div class="resumo-compra">
+                            <h3>Resumo da Compra</h3>
+                            <p>Total de itens <span id="totalItens">0</span></p>
+                            <p>Total R$ <span id="totalfinal">0.00</span></p>
+                            <button id="btnFinalizar">Finalizar compra</button>
+                            <button id="fecharCarrinho">Fechar</button>
+
+                            <p id="msgVazio">Seu carrinho está vazio 🛒</p>
+                        </div>
+
+                    </div>
+
+                    <div id="loginModal" class="modal-escondido">
+
+                        <form class="form-login">
+
+                            <div class="campo">
+                                <input id="emailLogin" type="email" placeholder="Digite seu e-mail" />
+                            </div>
+
+                            <div class="campo">
+                                <input id ="loginSenha"type="password" placeholder="Senha"/>
+                            </div>
+
+                            <p id="loginErro" class="erro-login"></p>
+
+                            <div class="botoes">
+                                <button id="btnLoginConfirmar" type="submit">Entrar</button>
+                                <button type="button" id="fecharModal">Fechar</button>
+                            </div>
+                            
+                        </form>
+                    </div>
+            </nav>
+
+            <main class="divisao">
+
+                <section id="home" class="apresentacao">
+                    <div class="container">
+                    <h1>Bem-vindo à Jugê Personalizados!</h1>
+                    <p>Transformamos suas ideias em produtos exclusivos e cheios de personalidade. Aqui você encontra perfumaria, sabonetes artesanais, convites especiais e velas feitas com todo carinho para momentos inesquecíveis.</p>
+                    <p>Explore nosso site e descubra como podemos tornar seu dia ainda mais especial!</p>
+                </section>
+
+                <section id="Perfumaria" class="bloco reveal" data-produto="perfume perfumaria fragrância">
+                <img class="perfume" src="Imagens/Perfumaria.jpeg" alt="amostra de perfume">
+                <p class="perfume-descricao">
+                    Nossa linha de perfumaria é pensada para despertar sensações e criar memórias. Desenvolvemos fragrâncias delicadas e marcantes, ideais para lembrancinhas, datas especiais e uso pessoal. Cada perfume é produzido com cuidado, podendo ser personalizado de acordo com a ocasião, tornando cada detalhe único e inesquecível.
+                </p>
+
+                <button class="btn-carrinho" data-nome="perfume fragrancia" data-preco="50.00">
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                        Adicionar ao carrinho
+                    </button>
+
+                </section>
+
+                <section id="Sabonete" class="bloco reveal" data-produto="sabonete sabonetes artesanal">
+                <img class="sabao" src="Imagens/carrinho de sabonete.jpeg" alt="sabonete de carrinho">
+                <p class="descricao">
+                    Os sabonetes artesanais da Jugê unem beleza, aroma e carinho em cada detalhe. Produzidos manualmente, eles são ideais para lembrancinhas de maternidade, aniversários, casamentos e eventos especiais. Além de perfumar, encantam pela apresentação e podem ser personalizados conforme o tema escolhido.
+                </p>
+                    <button class="btn-carrinho" data-nome="sabonete artesanal" data-preco="30.00">
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                        Adicionar ao carrinho
+                    </button>
+                </section>
+
+                <section id="Convite" class="bloco reveal" data-produto="convite convites festa">
+                    <img class="convites" src="Imagens/convites.jpeg" alt="imagem do convite">
+                    <p class="descricao-convite">
+                    Nossos convites personalizados são criados para transformar o primeiro contato com seu evento em uma experiência especial. Desenvolvemos modelos exclusivos, com atenção aos detalhes, cores e estilo desejado. Seja para festas, comemorações ou momentos únicos, cada convite transmite personalidade e cuidado desde o primeiro olhar.
+                    </p>
+
+                    <button class="btn-carrinho" data-nome="convites festas" data-preco="29.99">
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                        Adicionar ao carrinho
+                    </button>
+
+                </section>
+
+                <section id="Velas" class="bloco reveal" data-produto="vela velas aromática">
+                    <img class="velas" src="Imagens/velas.jpeg" alt="imagem de 3 velas">
+                    <p class="descricao-velas">
+                    As velas artesanais da Jugê combinam elegância, aconchego e fragrâncias suaves que transformam qualquer ambiente. Produzidas com materiais de qualidade, elas são perfeitas para decoração, presentes ou lembranças especiais. Cada vela é feita com carinho para criar momentos de calma, conforto e bem-estar.
+                    </p>
+
+                    <button class="btn-carrinho" data-nome="Vela Aromática" data-preco="29.90">
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                        Adicionar ao carrinho
+                    </button>
+
+                </section>
+
+            </main>
+
+
+        <footer>
+                <ul class="contatos">
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        Telefone: (11) 1234-5678
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.instagram.com/juge.perso?igsh=MTI4aTF4eXdxNXF2cA==">
+                            <i class="fa-brands fa-instagram"></i>
+                            Instagram: Jugê Perso
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <i class="fa-solid fa-truck-fast"></i>  
+                        Envio para todo o Brasil
+                    </li>  
+                </ul>
+                    
+                <div class="footer-center">
+                    &copy; Jugê 2025
+                </div>
+                
+
+                <img class="site" src="Imagens/site seguro.png" alt="marca que o site é seguro">
+        </footer>
+    
+    </body>
+
+    <script src="script.js"></script>
+
+    </html>
